@@ -91,7 +91,7 @@ function Skills({ skills, title, subtitle }) {
                   ))}
                 </div> */}
                 {/* Edited Right side */}
-                <div className="mt-5 mt-lg-0 offset-lg-1">
+                <div className="mt-5 mt-lg-0 offset-lg-1 skill_wrapper">
                   <h2 dangerouslySetInnerHTML={{ __html: title }}></h2>
                   <p
                     className="mb-5"

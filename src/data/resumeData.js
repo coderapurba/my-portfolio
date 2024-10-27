@@ -324,9 +324,6 @@ export const partners = [
     image: "2.webp",
   },
   {
-    image: "3.png",
-  },
-  {
     image: "4.png",
   },
 ];

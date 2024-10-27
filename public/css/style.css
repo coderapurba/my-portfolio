@@ -1468,6 +1468,10 @@ h1 + .line {
     margin: 1rem 0;
     padding: 0 4rem;
   }
+  h1,
+  .h1 {
+    font-size: 4.725rem;
+  }
 }
 
 /* 3.8 Testimonials */
@@ -1495,5 +1499,33 @@ h1 + .line {
 @media (max-width: 768px) {
   .hero_heading {
     font-size: 4rem;
+  }
+}
+.skill_wrapper {
+  width: 100%;
+}
+@media (max-width: 580px) {
+  .skill_wrapper {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .skill_wrapper > h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .skill_wrapper > p {
+    text-align: center;
+  }
+  .skills_wrapper {
+    justify-content: center;
+  }
+  .exp_skills > h4 {
+    text-align: center;
+  }
+  .row-partners {
+    justify-content: center;
+  }
+  #partners h2 {
+    text-align: center;
   }
 }
