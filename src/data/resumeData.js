@@ -16,27 +16,27 @@ export const main = {
   social: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/programmerrafi",
+      url: "https://www.linkedin.com/in/coderapurba",
       iconName: "logo-linkedin",
     },
     {
       name: "twitter",
-      url: "https://twitter.com/programmerrafi",
+      url: "https://twitter.com/coderapurba",
       iconName: "logo-twitter",
     },
     {
       name: "facebook",
-      url: "https://www.facebook.com/programmerrafi",
+      url: "https://www.facebook.com/coderapurba",
       iconName: "logo-facebook",
     },
     {
       name: "instagram",
-      url: "https://www.instagram.com/programmerrafi",
+      url: "https://www.instagram.com/coderapurba",
       iconName: "logo-instagram",
     },
     {
       name: "github",
-      url: "https://github.com/programmerrafi",
+      url: "https://github.com/coderapurba",
       iconName: "logo-github",
     },
   ],
@@ -240,7 +240,7 @@ export const projects = [
     title: "Chat App",
     category: "App",
     image: "chats1.png",
-    url: "https://programmerrafi.github.io/chat-apps",
+    url: "https://coderapurba.github.io/chat-apps",
   },
   {
     title: "Educavo Website",
