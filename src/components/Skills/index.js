@@ -1,5 +1,7 @@
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
+// import { motion, useAnimation } from "framer-motion";
+// import { useInView } from "react-intersection-observer";
 
 function Skills({ skills, title, subtitle }) {
   const [itemsPerPage] = useState(1);
@@ -18,6 +20,26 @@ function Skills({ skills, title, subtitle }) {
     );
     setItemOffset(newOffset);
   };
+
+  // const { ref, inView } = useInView();
+  // const animation = useAnimation();
+
+  // useEffect(() => {
+  //   if (inView) {
+  //     animation.start({
+  //       y: 0,
+  //       opacity: 1,
+  //       transition: {
+  //         type: "spring",
+  //         duration: 1,
+  //         bounce: 0.2,
+  //       },
+  //     });
+  //   }
+  //   if (!inView) {
+  //     animation.start({ y: 40, opacity: 0 });
+  //   }
+  // }, [inView, animation]);
 
   return (
     <>
@@ -77,6 +99,7 @@ function Skills({ skills, title, subtitle }) {
                   ></p>
                   {currentItems?.map(({ title, skills }) => (
                     <div className="exp_skills" key={title}>
+                      {/* <motion.div animate={animation} ref={ref}> */}
                       <h4 dangerouslySetInnerHTML={{ __html: title }}></h4>
                       <div className="mb-4 pt-2 skills_wrapper">
                         {skills?.map((skill, i) => (
@@ -89,6 +112,7 @@ function Skills({ skills, title, subtitle }) {
                           </div>
                         ))}
                       </div>
+                      {/* </motion.div> */}
                     </div>
                   ))}
                   {/* Paginate counter */}

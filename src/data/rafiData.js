@@ -1,18 +1,16 @@
 export const main = {
-  name: "Apurba Samadder",
+  name: "Md Rafi",
   occupation: "Founder of KS Devware",
   description: "I'm Frontend Software Engineer",
   image: "profilepic.jpg",
-  bio: "I am Apurba Samadder. A young entrepreneur. With nearly 4 years of experience, I’m a Frontend developer, I have full  stack experience with a frontend focus. I'm currently working on KS-Devware institute. Worked as a professional Frontend developer. Learning Full-stack Web/App development.",
-  email: "coderapurba@gmail.com",
+  bio: "I am Md Rafi. A young entrepreneur. With nearly 3 years of experience, I’m a Frontend developer, I have full  stack experience with a frontend focus. I'm currently working on KS-Devware institute. Worked as a professional Frontend developer. Learning Full-stack Web/App development.",
+  email: "mdrafiprogrammer@gmail.com",
   phone: "+880 17032 50661",
   quote: "The universe is a pretty big place. If it's just us.",
   address: "Banasree, Dhaka, Bangladesh",
-  website: "https://portfolio-apurba.vercel.app",
+  website: "https://portfolio-mdrafi.vercel.app",
   resumedownload:
-    "https://drive.google.com/file/d/18v32IDJJTyV884FWbOzpylwjfaHTIXUP/view?usp=sharing",
-  resumedownload_shpify:
-    "https://drive.google.com/file/d/153mf8oi1C_tENyfw1ZYC8-_cmE_sW0WE/view?usp=sharing",
+    "https://drive.google.com/file/d/1kplmYh-m84_tfb4FXA--QLZWB5Hci6v7/view?usp=share_link",
   social: [
     {
       name: "linkedin",
@@ -48,20 +46,18 @@ export const about = {
   subtitle:
     "As a Frontend Software Engineer I have full stack experience with a frontend focus.",
   ido: `
-  <p>WEB DEVELOPMENT</p>
-  <p>APP DEVELOPMENT</p>
-  <p>UI/UX DESIGN</p>
-  <p>FRONT-END DEVELOPMENT</p>
-  <p>BACK-END DEVELOPMENT</p>
-  <p>FULL-STACK DEVELOPMENT</p>
-  `,
-  years: 4,
+    <p>WEB DEVELOPMENT</p>
+    <p>APP DEVELOPMENT</p>
+    <p>UI/UX DESIGN</p>
+    <p>FRONT-END DEVELOPMENT</p>
+    <p>BACK-END DEVELOPMENT</p>
+    <p>FULL-STACK DEVELOPMENT</p>
+    `,
+  years: 3,
   image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "https://drive.google.com/file/d/18v32IDJJTyV884FWbOzpylwjfaHTIXUP/view?usp=sharing",
-  resumedownload_shpify:
-    "https://drive.google.com/file/d/153mf8oi1C_tENyfw1ZYC8-_cmE_sW0WE/view?usp=sharing",
+    "https://drive.google.com/file/d/1kplmYh-m84_tfb4FXA--QLZWB5Hci6v7/view?usp=share_link",
 };
 
 export const works = [
@@ -320,20 +316,11 @@ export const partners = [
   {
     image: "gorelove.png",
   },
-  {
-    image: "2.webp",
-  },
-  {
-    image: "3.png",
-  },
-  {
-    image: "4.png",
-  },
 ];
 
 export const testimonials = [
   {
-    text: "We are very content and happy wan all the work Apurba Samadder has done for us! Not only did he just what he had to do, comes up with suggestions and improvements of his owns and points out weaknesses which he in perfect communication is able to improve. Recommended! ",
+    text: "We are very content and happy wan all the work Md Rafi has done for us! Not only did he just what he had to do, comes up with suggestions and improvements of his owns and points out weaknesses which he in perfect communication is able to improve. Recommended! ",
     user: "Jason Sindram",
     company: "CTO at DP-Websolutions",
   },
