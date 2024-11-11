@@ -1,4 +1,5 @@
 function About({ bio, subtitle, ido, years, image, video, resumedownload }) {
+  // hello
   return (
     <>
       <section
